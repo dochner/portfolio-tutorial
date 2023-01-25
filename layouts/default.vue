@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <main >
-      <slot />
-    </main>
-  </div>
+  <LayoutHeader />
+  <main>
+    <slot />
+  </main>
 </template>

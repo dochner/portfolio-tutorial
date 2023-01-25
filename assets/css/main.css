@@ -15,6 +15,10 @@ body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--font-family);
   font-size: var(--font-size-md);
+}
+
+html,
+body {
   background-color: var(--color-bg);
   color: var(--color-text);
 }
@@ -26,8 +30,13 @@ h4 {
   color: var(--color-title)
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
+  color: var(--color-text);
 }
 
 img {
@@ -63,4 +72,10 @@ img {
 .grid {
   display: grid;
   gap: 1rem;
+}
+
+.container {
+  max-width: 768px;
+  margin-left: var(--mb-6);
+  margin-right: var(--mb-6);
 }
